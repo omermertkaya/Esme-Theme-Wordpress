@@ -1,0 +1,394 @@
+/*ana rengimiz */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+
+
+
+body, head{
+    margin:0;
+    padding:0;
+
+
+
+}
+p,ul{
+    margin:0;
+    padding:0;
+}
+
+.clear{
+    clear:both;
+}
+
+.anakisim{
+    width: 100%;
+    ;
+
+}
+.ickisim{
+    width: 1480px;
+    margin:auto;
+
+
+}
+.baslik{
+    background-color: #cddce8;
+
+}
+
+.baslik .logo{
+    float: right;
+    position: relative;
+    left: -44%;
+    display: inline-block;
+}
+.baslik .menu{
+    padding-top: 85px;
+    padding-left: 220px;
+}
+.baslik .menu ul{
+    list-style: none;
+}
+.baslik .menu ul li {
+     float: left;
+
+ }
+.baslik .menu ul li a{
+    text-align: center;
+    padding-right: 15px;
+}
+.baslik .menu ul li a{
+    display: block;
+    color:#000000;
+}
+
+
+.baslik .menu ul li a{
+    text-decoration: none;
+}
+
+.baslik .menu ul li a i.anasayfa{
+     background: url('../esmev0.1_theme/images/icon/anasayfa.png') center;
+     display:inline-block;
+     width: 28px;
+     height: 28px;
+     float: left;
+ }
+.baslik .menu ul li a i.yazarlar{
+    float: left;
+    background: url('../esmev0.1_theme/images/icon/yazarlar.png') center;
+    display:inline-block;
+    width: 28px;
+    height: 28px;
+}
+.baslik .menu ul li a i.aboneol{
+    float: left;
+    background: url('../esmev0.1_theme/images/icon/aboneol.png') center;
+    display:inline-block;
+    width: 28px;
+    height: 28px;
+}
+.baslik .menu ul li a i.iletisim{
+    float: left;
+    background: url('../esmev0.1_theme/images/icon/iletisim.png') center;
+    display:inline-block;
+    width: 28px;
+    height: 28px;
+
+}
+.baslik .menu ul li a p.menubaslik{
+    font-family: 'Roboto', sans-serif;
+    font-size:28px;
+    color:#000000;
+    font-weight: bold;
+    width: 150px;
+    height: 30px;
+    margin:auto;
+    padding-left:39px;
+}
+.baslik .menu ul li a p.menubaslikyazar{
+    font-family: 'Roboto', sans-serif;
+    font-size:28px;
+    color:#000000;
+    font-weight: bold;
+    width: 150px;
+    height: 30px;
+    margin:auto;
+    padding-left:39px;
+    padding-right: 220px;
+}
+.menualtcizgi{
+    background-color:#444444;
+    height: 8px;
+    width: 100%;
+
+}
+.ortakisim{
+    background: #f1f1f1;
+    width: 100%;
+}
+.ortakisim .ortaickisim {
+    width: 1120px;
+    margin:auto;
+    background: #ffffff;
+
+}
+.ortakisim .ortaickisim .kategoriler ul li a{
+    text-decoration: none;
+    color: black;
+    text-align:center;
+
+
+}
+.ortakisim .ortaickisim .kategoriler ul li a p.menukategori{
+    font-family: "Minion Pro";
+    color: black;
+    font-size: 28px;
+    font-weight: normal;
+    padding-right: 30px;
+
+}
+.ortakisim .ortaickisim .kategoriler ul {
+    display: table;
+    margin: auto;
+
+
+}
+.ortakisim .ortaickisim .kategoriler ul li {
+    display: table-cell;
+
+
+}
+
+
+.ortakisim .ortaickisim .kategoriler ul li a{
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+    display: table;
+    margin: auto;
+
+    font-family: "Minion Pro";
+    color: black;
+    font-size: 24px;
+    font-weight: normal;
+    padding-right: 20px;
+
+
+}
+.ortakisim .ortaickisim .kategoriler{
+    width: 1120px;
+    border-bottom: 3px solid #f5f5f5;
+    margin: auto;
+}
+
+.ortakisim .ortaickisim .konular{
+    padding-top:50px;
+    padding-left: 120px;
+
+
+
+
+
+}
+.ortakisim .ortaickisim .konular .solakaydir{
+    float:left;
+    padding:0 30px 10px 0;
+}
+
+
+.ortakisim .ortaickisim .konular .konubaslik{
+    color: #000000;
+    font-size: 28px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+
+
+}
+.ortakisim .ortaickisim .konular .konubaslik a{
+    text-decoration: none;
+}
+.ortakisim .ortaickisim .konular .konubaslik a:link{
+    color: #000000;
+}
+.ortakisim .ortaickisim .konular .konubaslik a:visited{
+    color: #000000;
+}
+
+.ortakisim .ortaickisim .konular ul{
+    list-style: none;
+
+
+}
+
+.ortakisim .ortaickisim .konular ul li{
+    float: left;
+    padding-right: 15px;
+
+}
+.ortakisim .ortaickisim .konular ul li a{
+    text-decoration: none;
+    color:#888888;
+    font-family: 'Oswald', sans-serif;
+    font-size:18px;
+
+}
+.ortakisim .ortaickisim .konular ul li a .adminprofil{
+    padding-right:5px ;
+    width: 20px;
+    height: 20px;
+}
+
+.ortakisim .ortaickisim .konular .konuyazisi{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Libre Baskerville', serif;
+    font-size:16px;
+    line-height: 1.7;
+    height: 100%;
+    padding-bottom: 100px;
+    padding-right: 100px;
+
+
+
+}
+
+.ortakisim .ortaickisim .konular .konuyazisi a{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Libre Baskerville', serif;
+    font-size:16px;
+    line-height: 1.7;
+    height: 100%;
+    padding-bottom: 100px;
+    padding-right: 150px;
+    text-decoration: none;
+
+}
+
+
+.ortakisim .ortaickisim .ilerigeri{
+    margin:auto;
+    padding-top: 40px;
+    width:1120px;
+    height: 40px;
+
+
+
+
+}
+.ortakisim .ortaickisim .ilerigeri .ileri a{
+    float: right;
+    font-size:25px;
+    font-family: "Work Sans";
+    color: #898989;
+    margin-right: 20px;
+    text-decoration: none;
+    text-align:center;
+}
+.ortakisim .ortaickisim .ilerigeri .geri a{
+    float:left;
+    margin-left: 5px;
+    font-size:25px;
+    font-family: "Work Sans";
+    color: #898989;
+    text-decoration: none;
+    text-align:center;
+
+}
+.ortakisim .ortaickisim .ilerigeri .geri .geriresim{
+    float:left;
+    padding:0 10px 10px 0;
+
+
+}
+.ortakisim .ortaickisim .ilerigeri .ileri .ileriresim{
+    float:right;
+    padding:0 10px 10px 0;
+
+}
+.footer .footercizgi{
+
+    background-color:#444444;
+    height: 5px;
+}
+
+.footer .footerici{
+    margin: auto;
+    height: 250px;
+    width: 1480px;
+    background-color:#cddce8;
+    position: relative;
+
+
+
+}
+.footer .footerici .footericisol{
+    width: 500px;
+    padding-left:14%;
+    float:left;
+    font-family: 'Libre Baskerville', serif;
+    font-size:21px;
+    line-height: 1.7;
+
+
+}
+.footer .footerici .footericisag{
+    width: 500px;
+    padding-right:14%;
+    float: right;
+    font-family: 'Libre Baskerville', serif;
+    font-size:21px;
+    line-height: 1.7;
+
+}
+.footer .footerici .footericisag p{
+    text-align:center;
+    padding-right: 150px;
+    font-family: 'Oswald', sans-serif;
+    color: #000000;
+    font-size:28px;
+}
+.footer .footerici .footericisol p{
+    text-align:center;
+    padding-right:120px;
+    font-family: 'Oswald', sans-serif;
+    color: #000000;
+    font-size:28px;
+
+}
+
+.footer .footerici .footericisol .sag{
+    margin-right: 500px;
+    float:left;
+}
+
+.ortakisim .ortaickisim .kategori-listesi{
+    margin:auto;
+    text-align: center;
+    color: #ef4f32;
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+
+
+
+}
+.ortakisim .ortaickisim .kategori-listesi a{
+    text-decoration: none;
+}
+.ortakisim .ortaickisim .kategori-listesi a:visited{
+    color: #ef4f32;
+}
+.ortakisim .ortaickisim .kategori-listesi a:link{
+    color: #ef4f32;
+}
+
+
+/* yorum deneme*/
+#yorumlar{
+    zoom: unset;
+}
+
