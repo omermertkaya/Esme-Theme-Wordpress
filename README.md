@@ -19,9 +19,5 @@ Esme PD Esme Personal Blog Theme
 
 ![Screenshot](Ss3.png)
 
-# Görüntü 4
-
-![Screenshot](Ss4.png)
-
 
 
