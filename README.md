@@ -8,16 +8,16 @@ Esme PD Esme Personal Blog Theme
 
 # Görüntü 1
 
-![Screenshot](Ss1.png)
+![screen1](Ss1.png)
 
 # Görüntü 2
 
-![Screenshot](Ss2.png)
+![screen2](Ss2.png)
 
 
 # Görüntü 3
 
-![Screenshot](Ss3.png)
+![screen3](Ss3.png)
 
 
 
