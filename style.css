@@ -1,12 +1,12 @@
 /*
 Theme name: Esme Theme
-Theme URI: http://esme.com
+Theme URI: http://github.com/omermertkaya
 Author: Omer Mert KAYA
-Author URI: http://esme.com
+Author URI: http://github.com/omermertkaya
 Description: Esme temasi kisisel blog kullanicilari icin tasarlanmis temadir.
-Version: 0.0.1
+Version: 0.0.2
 License: GNU General Public License v2 or later
-License URI: http://esme.com
+License URI: http://github.com/omermertkaya
 Tags: Blog, sidebar, responsive, clean, minimal, icon font, sunset, custom admin options.
 
 
@@ -357,14 +357,17 @@ p,ul{
     padding:10px 10px 10px 0;
 }
 
-
-.footer{
+.footer-section{
     background-color:#cddce8;
     margin:auto;
-    height: 100%;
+    max-height: 100%;
+    overflow:hidden;
+    position:relative;
+    
 }
 
-.footer .footercizgi{
+
+.footercizgi{
 
     background-color:#122334;
     height: 10px;
@@ -372,16 +375,8 @@ p,ul{
     margin:auto;
 }
 
-.footer .footerici{
-    margin: auto;
-    height: 200px;
-    background-color:#cddce8;
-    position: relative;
 
-
-
-}
-.footer .footerici .footericisol{
+ .footericisol{
     width: 500px;
     padding-left:14%;
     float:left;
@@ -391,7 +386,7 @@ p,ul{
 
 
 }
-.footer .footerici .footericisag{
+.footerici .footericisag{
     width: 500px;
     padding-right:14%;
     float: right;
@@ -400,14 +395,14 @@ p,ul{
     line-height: 1.7;
 
 }
-.footer .footerici .footericisag p{
+.footerici .footericisag p{
     text-align:center;
     padding-right: 150px;
     font-family: 'Oswald', sans-serif;
     color: #000000;
     font-size:28px;
 }
-.footer .footerici .footericisol p{
+.footerici .footericisol p{
     text-align:center;
     padding-right:120px;
     font-family: 'Oswald', sans-serif;
@@ -416,8 +411,7 @@ p,ul{
 
 }
 
-
-.footer .footerici .footericisol a{
+.footerici .footericisol a{
 
     text-decoration: none;
     color:#000000;
@@ -425,7 +419,7 @@ p,ul{
 
 }
 
-.footer .footerici .footericisag a{
+.footerici .footericisag a{
 
     text-decoration: none;
     color: #ef0009;
@@ -433,10 +427,10 @@ p,ul{
 
 }
 
-.foooter .footerici .footericisag  ul{
+.footerici .footericisag  ul{
     list-style: none outside none;
 }
-.footer .footerici .footericisag ul li{
+.footerici .footericisag ul li{
     position: relative;
     display: inline;
     margin: 20px;

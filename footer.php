@@ -1,13 +1,14 @@
-
+<?php wp_footer(); ?>
 <div style="clear:both"></div>
 </div>
-
-    <div class="footer">
+    <section class="footer-section">
+   
         <div class="footercizgi">
         </div>
-
+       
 
         <div class="footerici">
+        
 
             <?php dynamic_sidebar("solalt"); ?>
 
@@ -20,12 +21,9 @@
 
         </div>
 
+    </section>
 
 
-    </div>
-
-
-<?php wp_footer(); ?>
 
 </body>
 
