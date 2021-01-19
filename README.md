@@ -1,23 +1,25 @@
-# Esme-V.0.1
+# Wordpress Template
 
-Esme PD Esme Personal Blog Theme
-
-
-# Merhabalar, Esme Kişisel Blog teması ekran görüntüleri aşağıda yer almaktadır.
+HTML, CSS and wordpress
 
 
-# Görüntü 1
+# Preview 1
 
 ![screen1](screen1.png)
 
-# Görüntü 2
+# Preview 2
 
 ![screen2](screen2.png)
 
 
-# Görüntü 3
+# Preview 3
 
 ![screen3](screen3.png)
+
+# Releases
+
+V.0.0.1
+V.0.0.2
 
 
 
